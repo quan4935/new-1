@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.main-body{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.main-body img{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    z-index: -999;
+}
+.chan{
+    transform: translateY(50%) translateX(-20%);
+    height: 660px;
+    width:650px;
+}
+.chan img{
+    height: 100%;
+    width: 100%;
+}
+.xie{
+    transform: translateY(-90%) translateX(150%);
+    position: absolute;
+    height: 400px;
+    width: 400px;
+}
+.xie img{
+    height: 100%;
+    width: 100%;
+}
+.shu{
+    transform: translateY(30%) translateX(280%);
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+}
+.shu img{
+    height: 100%;
+    width: 100%;
+}
+.contact{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+}
+.contact a{
+    font-weight: 900;
+    font-size: 30px;
+}
